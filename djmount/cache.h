@@ -26,6 +26,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+#ifndef __GLIBC__
+#include <sys/time.h>
+#endif
 
 /******************************************************************************
  * @var Cache
